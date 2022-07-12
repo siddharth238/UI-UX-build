@@ -1,0 +1,43 @@
+.Photocard{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0.5rem;
+    font-family: var(--font-family);
+}
+.Photocard img{
+   
+    float: left;
+    width:  350px;
+    height: 350px;
+    object-fit: cover;
+    transition:  all 0.3s ease-out  ;
+}
+ 
+.Photocard img:hover {
+    transform: scale(1.1);
+
+}
+.Photocard__bottom{
+    padding: 1rem;
+}
+.Photocard__bottom p{
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 0.5rem;
+}
+.Photocard__bottom h2{
+    font-weight: 700;
+    
+    line-height: 30px;
+    margin-bottom: 0.5rem;
+    align-self: flex-end ;
+}
+.Photocard__link{
+    padding: 1rem;
+}
+
+ 
+  

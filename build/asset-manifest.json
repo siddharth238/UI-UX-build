@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5df6f7af.css",
+    "main.js": "/static/js/main.15e777a3.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/nzflag.png": "/static/media/nzflag.5ee75ed91c8bda7554ba.png",
+    "static/media/siddharth.png": "/static/media/siddharth.c555dff12440bc239829.png",
+    "static/media/circle1.png": "/static/media/circle1.24197e0ca508ef35f839.png",
+    "static/media/plane.png": "/static/media/plane.d384bb3b20650885d589.png",
+    "index.html": "/index.html",
+    "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "main.5df6f7af.css.map": "/static/css/main.5df6f7af.css.map",
+    "main.15e777a3.js.map": "/static/js/main.15e777a3.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5df6f7af.css",
+    "static/js/main.15e777a3.js"
+  ]
+}

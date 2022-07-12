@@ -1,0 +1,150 @@
+.Header {
+    display: flex;
+    
+}
+
+.Header__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 5rem;
+}
+
+.Header__content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.Header__content p {
+    font-family: var(--font-family);
+    line-height: 27px;
+    font-size: 20px;
+    color: var(--color-text);
+}
+
+.Header__contentInput {
+    width: 100%;
+    display: flex;
+
+    margin: 2rem 0 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.Header__contentInput .MuiInput-root {
+    padding: 15px;
+    display: flex;
+    background: var(--color-footer);
+    color: white;
+    width: 70%;
+    margin-right: 0.5rem;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.Header__contentInput .MuiButton-root {
+    text-transform: none;
+    font-size: 20px;
+    flex: 0.6;
+    font-family: var(--font-family);
+}
+
+.Header__image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__image img {
+    width: 100%;
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .Header {
+        flex-direction: column;
+    }
+
+    .Header__content {
+        margin: 0 0 3rem;
+    }
+    .Header__image img {
+        width: 70%;
+       
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Header__content h1 {
+
+        font-size: 48px;
+        line-height: 60px;
+
+    }
+
+    .Header__content p {
+
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+    .Header__image img {
+        width: 80%;
+       
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header image framer part */
+
+
+
+.app__header-img {
+  
+    height: 100%;
+  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+     
+  }
+  .app__header-img img {
+   
+    object-fit: contain;
+    z-index: 1;
+  }
+  .app__header-img  .overlay_circle {
+    position: absolute;
+     
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    z-index: -1;
+    width: 80%;
+    height: 100%;
+  }
+  .giff{
+    width: 6rem;
+    margin-bottom: 25px;
+  }
