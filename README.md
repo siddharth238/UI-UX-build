@@ -8,6 +8,6 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [https://siddharth-uiux.netlify.app](http://localhost:3000) to view it in your browser.
+The app is deployed in Netlify\
+[Live at](http://localhost:3000](https://siddharth-uiux.netlify.app/) to view it in your browser.
 
