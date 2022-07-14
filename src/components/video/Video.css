@@ -1,4 +1,4 @@
-.gpt3__possibility {
+.Video {
     display: flex;
     flex-direction: row;
      overflow: hidden;
@@ -8,10 +8,10 @@
     display: flex;
     flex-direction: row-reverse;
 }
-.left .gpt3__possibility-image{
+.left .Video-image{
     margin-left: 2rem;
 }
-.gpt3__possibility-image {
+.Video-image {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -20,12 +20,12 @@
      
 }
 
-.gpt3__possibility-image .img {
+.Video-image .img {
     width: 100%;
     height: 100%;
 }
 
-.gpt3__possibility-content {
+.Video-content {
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -33,7 +33,7 @@
     flex-direction: column;
 }
 
-.gpt3__possibility-content h4 {
+.Video-content h4 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
@@ -41,11 +41,11 @@
    
 }
 
-.gpt3__possibility-content h4:last-child {
+.Video-content h4:last-child {
     color: #ff8A71;
 }
 
-.gpt3__possibility-content h1 {
+.Video-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 34px;
@@ -53,7 +53,7 @@
     margin: 1rem 0;
 }
 
-.gpt3__possibility-content p {
+.Video-content p {
     color: var(--color-text);
     font-family: var(--font-family);
     font-weight: 400;
@@ -64,33 +64,33 @@
 }
 
 @media screen and (max-width: 950px) {
-    .gpt3__possibility {
+    .Video {
         flex-direction: column;
     }
 
-    .gpt3__possibility-image {
+    .Video-image {
         margin: 1rem 0;
     }
 
-    .gpt3__possibility-image .img {
+    .Video-image .img {
         width: unset;
         height: unset;
     }
 
-    .gpt3__possibility-content {
+    .Video-content {
         margin-top: 2rem;
     }
-    .left .gpt3__possibility-image{
+    .left .Video-image{
         margin-left: 0rem;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .gpt3__possibility-image .img {
+    .Video-image .img {
         width: 100%;
         height: 100%;
     }
-    .left .gpt3__possibility-image{
+    .left .Video-image{
         margin-left: 0rem;
     }
 }
