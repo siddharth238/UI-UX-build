@@ -2,7 +2,7 @@
 <h5>This website is made without any inbuilt css frameworks</h5>
 <ol>
 <li>Might lag in few devices due to the low bandwith in Netlify domains</li>
-<h3>🔴 The project is live at siddharth-me-uiux.netlify.app/ </h3> 
+<h3>🔴 The project is live at https://siddharth-uiux.netlify.app/ </h3> 
  
 <h3>This web application uses Framer Motion as a primary animation tool and responsive in almost all resolutions.</h3>
  
